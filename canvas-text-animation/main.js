@@ -26,7 +26,7 @@ window.addEventListener('load', function(){
       this.force = 0
       this.distance = 0
       this.friction = Math.random() * 0.6 + 0.15
-      this.ease = Math.random() * 0.01 + 0.005
+      this.ease = Math.random() * 0.01 + 0.0005
 
     }
     draw(){
@@ -76,7 +76,7 @@ window.addEventListener('load', function(){
 
       // partcle section
       this.particles = []
-      this.gap = 20
+      this.gap = 5
       this.mouse = {
         radius : 20000,
         x:0,
@@ -95,7 +95,7 @@ window.addEventListener('load', function(){
       gradient.addColorStop(0.3, 'red')
       gradient.addColorStop(0.5, 'fuchsia')
       gradient.addColorStop(0.7, 'purple')
-      this.context.font='100px helevetica'
+      this.context.font='250px helevetica'
       this.context.textAlign = 'center'
       this.context.strokeStyle = 'white'
       this.context.fillStyle = gradient
@@ -154,7 +154,8 @@ window.addEventListener('load', function(){
 }
 
 const effect = new Effect(ctx, canvas1.width, canvas1.height)
-effect.textWrapper('ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ')
+effect.textWrapper('PKM')
+// 'ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ'
 effect.render()
 
 function anime(){
