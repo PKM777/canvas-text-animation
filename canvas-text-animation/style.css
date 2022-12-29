@@ -44,8 +44,7 @@ body {
 }
 
 #textCanvas{
-  background-color: red;
-}
+  background-image: linear-gradient(to right bottom, #2219f6, #2518d1, #2516ad, #23148a, #1f1169, #2d1368, #371566, #401865, #641e80, #8c2198, #b71fae, #e514c1);}
 
 
 

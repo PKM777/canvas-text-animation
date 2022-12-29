@@ -34,11 +34,11 @@ window.addEventListener('load', function(){
       this.effect.context.fillRect(this.x, this.y, this.size, this.size)
       this.effect.context.strokeRect(this.x, this.y, this.size, this.size)
       this.effect.context.strokeStyle = 'yellow'
-      // this.effect.context.beginPath()
-      // this.effect.context.moveTo(this.effect.mouse.x, this.effect.mouse.y)
-      // this.effect.context.lineTo(this.x+this.effect.gap/2, this.y+this.effect.gap/2)
-      // this.effect.context.strokeStyle = 'yellow'
-      // this.effect.context.stroke()
+       this.effect.context.beginPath()
+       this.effect.context.moveTo(this.effect.mouse.x, this.effect.mouse.y)
+       this.effect.context.lineTo(this.x+this.effect.gap/2, this.y+this.effect.gap/2)
+       this.effect.context.strokeStyle = '#1FC5D7'
+       this.effect.context.stroke()
       
     }
     update(){
